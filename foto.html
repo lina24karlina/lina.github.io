@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .photo-container {
+            text-align: center;
+        }
+
+        .photo-container img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+
+        .back-button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: pink;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="photo-container">
+        <img src="foto.jpeg" alt="Description Image">
+        <div class="back-button-container">
+            <a href="portofolio.html" class="back-button">Back</a>
+        </div>
+    </div>
+</body>
+
+</html>
